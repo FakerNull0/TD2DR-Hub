@@ -1,0 +1,81 @@
+name: "Submit a server"
+description: "Add a public server to the directory"
+title: "[Server] "
+labels: ["server", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Important:** the server must be public and reliably reachable.
+        Do not submit private, temporary, or whitelisted servers.
+
+  - type: input
+    id: server-name
+    attributes:
+      label: Server name
+      placeholder: "e.g. NA Public #1"
+    validations:
+      required: true
+
+  - type: input
+    id: address
+    attributes:
+      label: Address (host:port)
+      description: "IP or domain."
+      placeholder: "138.124.183.172"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - North America (NA)
+        - South America (SA)
+        - Europe (EU)
+        - Asia (AS)
+        - Australia / Oceania (OC)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Online
+        - Offline (temporary)
+        - Updating
+        - Unknown
+    validations:
+      required: true
+
+  - type: input
+    id: owner
+    attributes:
+      label: Host / owner
+      description: "Nickname or a link to the server's Discord."
+      placeholder: "e.g. @nickname or https://discord.gg/..."
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: "Which TD2DR version the server runs."
+      placeholder: "e.g. 1101"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: "The server is public and has no whitelist"
+          required: true
+        - label: "I understand the IP may change and the entry will be updated via PR"
+          required: true
