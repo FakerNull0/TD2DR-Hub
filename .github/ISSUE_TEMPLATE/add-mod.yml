@@ -1,0 +1,81 @@
+name: "Submit a mod"
+description: "Add a modification to the directory"
+title: "[Mod] "
+labels: ["mod", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the directory! Please fill in every field as accurately as possible.
+        Before submitting, make sure the mod isn't already listed — search by name and author.
+
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod name
+      placeholder: "e.g Replacing Sonic.exe to 2011X"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-author
+    attributes:
+      label: Author(s)
+      description: "Nickname on Game Jolt / GitHub / Discord. Separate multiple authors with commas."
+      placeholder: "Your nickname / author name"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: "Pick one primary category."
+      options:
+        - Reskin / visual mod
+        - Server-side
+        - Client-side
+        - Separate project
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Active
+        - Abandoned
+        - Work in progress (WIP)
+        - Unknown
+    validations:
+      required: true
+
+  - type: input
+    id: source-link
+    attributes:
+      label: Source link
+      description: "Game Jolt, GameBanana, GitHub, Discord invite, etc."
+      placeholder: "https://gamejolt.com/games/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: "What does the mod do? 1–3 sentences."
+      placeholder: "Changes the game's visual style"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: "I checked that this mod is not already listed in the directory"
+          required: true
+        - label: "The link works and points to the mod's page, not a third-party reupload"
+          required: true
