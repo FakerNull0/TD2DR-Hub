@@ -30,11 +30,12 @@ body:
     id: category
     attributes:
       label: Category
-      description: "Pick one primary category."
+      description: "Pick one primary category. If the mod works on both server and client, choose 'Both'."
       options:
         - Reskin / visual mod
         - Server-side
         - Client-side
+        - Both (server-side + client-side)
         - Separate project
         - Other
     validations:
