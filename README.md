@@ -40,6 +40,4 @@ We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for
 ---
 
 ## 📜 License
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+This project is licensed under **CC0 1.0 Universal** — see the [LICENSE.md](LICENSE.md) file for details.
