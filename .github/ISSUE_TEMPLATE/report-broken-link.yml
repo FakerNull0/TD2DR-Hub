@@ -1,0 +1,37 @@
+name: "Report a broken link"
+description: "Let us know if a mod or server link is dead"
+title: "[Broken Link] "
+labels: ["broken-link", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the directory clean! Please provide the details below.
+
+  - type: input
+    id: link-url
+    attributes:
+      label: Broken link URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where is this link located?
+      options:
+        - Mods table in README
+        - Servers table in README
+        - Open Source & Tools table
+        - Other (please describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: "Anything else we should know? (e.g., the mod was deleted, the domain expired)"
+    validations:
+      required: false
