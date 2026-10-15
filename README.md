@@ -18,7 +18,7 @@ A curated list of community modifications. Sorted by category.
 
 > **Note:** Some mods work on both the server and client side. Please check the "Category" column.
 
-*Coming soon...*
+| NU Project | Remodify Studios | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active |
 
 *To add a mod, please use the [Submit a mod](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-mod.yml) issue form.*
 
