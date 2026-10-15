@@ -11,10 +11,13 @@ The easiest way to contribute is by using our automated Issue Forms:
 
 Once submitted, a maintainer will review your request. If approved, it will be added to the directory.
 
-### 2. Fix a Typo or Broken Link
+### 2. Report a Broken Link
+If you find a link that no longer works, please use our **[Report a broken link](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=report-broken-link.yml)** form.
+
+### 3. Fix a Typo or Broken Link Manually
 If you notice a mistake in the `README.md` or any other file, you can open a **[Pull Request](https://github.com/FakerNull0/TD2DR-Hub/pulls)** directly. For small fixes, a PR is faster than an issue.
 
-### 3. Suggest an Idea or Ask a Question
+### 4. Suggest an Idea or Ask a Question
 For anything else, please use our **[Discussions](https://github.com/FakerNull0/TD2DR-Hub/discussions)**. It's a great place to share ideas, ask for help, or talk with other community members.
 
 ## 📋 Guidelines
@@ -29,12 +32,13 @@ To keep the directory useful and safe, please follow these rules:
 
 ## 🛠️ Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the `README.md` with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the `README.md` to the new version that this Pull Request would represent.
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+If you are submitting a Pull Request manually (without using Issue Forms), please follow these steps:
 
-*(Note: For this specific directory, the PR process mainly involves updating the tables in `README.md` or adding new files to the `data/` folder if we implement that later.)*
+1. **Fork** the repository and create a new branch for your changes.
+2. **Make your changes** (e.g., update `README.md`, fix a typo, add a missing link).
+3. **Ensure the link-check workflow passes** (if you added a new link, make sure it works).
+4. **Open a Pull Request** with a clear description of what you changed and why.
+5. A maintainer will review your PR. If everything is correct, it will be merged.
 
 ---
 Thank you for contributing! 🎉
