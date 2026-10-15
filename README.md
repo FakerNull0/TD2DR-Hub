@@ -11,12 +11,14 @@ This repository serves as a central hub for the **TD2DR** community. Whether you
 
 **Want to add something?** Use our automated Issue Forms to submit a mod or a server, and it will be added to the directory.
 
+* **Need help?** Please read our [SUPPORT.md](SUPPORT.md) first.
+
 ## 📦 Mods
 A curated list of community modifications. Sorted by category.
 
 > **Note:** Some mods work on both the server and client side. Please check the "Category" column.
 
-(placeholder)
+*Coming soon...*
 
 *To add a mod, please use the [Submit a mod](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-mod.yml) issue form.*
 
@@ -25,12 +27,14 @@ A list of public servers where you can play with others.
 
 > ⚠️ **Warning:** Server IPs may change frequently. If a server is down, please [open an issue](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-server.yml) or submit a PR.
 
-(placeholder)
+*Coming soon...*
+
+*To add a server, please use the [Submit a server](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-server.yml) issue form.*
 
 ## 🛠️ Open Source & Tools
 Public repositories and tools used by the community.
 
-(placeholder)
+*Coming soon...*
 
 ---
 
