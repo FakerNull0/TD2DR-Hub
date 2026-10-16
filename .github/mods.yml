@@ -1,0 +1,67 @@
+# List of mods in the directory.
+# Add new entries to the top of the list.
+#
+# Fields:
+#   name - Mod name (required)
+#   author - Author(s), comma-separated (required)
+#   category - One of: Reskin / visual mod, Server-side, Client-side, Both (server-side + client-side), Separate project, Other
+#   status - One of: Active, Abandoned, Work in progress (WIP), Unknown
+#   links - List of links. Each item has "name" and "url".
+
+- name: "Curse of Chaos"
+  author: "Lisitsyn"
+  category: "Both (server-side + client-side)"
+  status: "Active"
+  links:
+    - name: "Game Jolt"
+      url: "https://gamejolt.com/games/lisitsynfox/1054471"
+
+- name: "DisasterServer"
+  author: "MilesGlitch"
+  category: "Server-side"
+  status: "Active"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/AX88M2/DisasterServer"
+
+- name: "Advanced Server"
+  author: "The Arctic Fox"
+  category: "Server-side"
+  status: "Active"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/thearcticfox25/AdvancedServer/"
+
+- name: "Gamemode Cycle"
+  author: "IceCoffee & ColdestTea"
+  category: "Server-side"
+  status: "Active"
+  links:
+    - name: "Game Jolt"
+      url: "https://gamejolt.com/games/TD2DRgmcycle/919987"
+
+- name: "TD2DR X Sonic"
+  author: "Renx Diamond"
+  category: "Both (server-side + client-side)"
+  status: "Active"
+  links:
+    - name: "Game Jolt"
+      url: "https://gamejolt.com/games/TD2DR_Sonic/919101"
+
+- name: "Universe Relapse"
+  author: "Relapse Team"
+  category: "Client-side"
+  status: "Work in progress (WIP)"
+  links:
+    - name: "Game Jolt"
+      url: "https://gamejolt.com/games/td2drUR/938171"
+
+- name: "NU Project"
+  author: "Remodify Studios"
+  category: "Both (server-side + client-side)"
+  status: "Active"
+  links:
+    - name: "Game Jolt"
+      url: "https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209"
+    - name: "GameBanana"
+      url: "https://gamebanana.com/mods/589527"
