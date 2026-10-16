@@ -18,7 +18,8 @@ A curated list of community modifications. Sorted by category.
 
 > **Note:** Some mods work on both the server and client side. Please check the "Category" column.
 
-| NU Project | Remodify Studios | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active |
+<!-- MODS_START -->
+<!-- MODS_END -->
 
 *To add a mod, please use the [Submit a mod](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-mod.yml) issue form.*
 
@@ -27,7 +28,8 @@ A list of public servers where you can play with others.
 
 > ⚠️ **Warning:** Server IPs may change frequently. If a server is down, please [open an issue](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-server.yml) or submit a PR.
 
-*Coming soon...*
+<!-- SERVERS_START -->
+<!-- SERVERS_END -->
 
 *To add a server, please use the [Submit a server](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-server.yml) issue form.*
 
