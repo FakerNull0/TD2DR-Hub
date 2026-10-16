@@ -5,8 +5,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
-MODS_YML = ROOT / "data" / "mods.yml"
-SERVERS_YML = ROOT / "data" / "servers.yml"
+MODS_YML = ROOT / ".github" / "data" / "mods.yml"
+SERVERS_YML = ROOT / ".github" / "data" / "servers.yml"
 
 def escape(text: str) -> str:
     if text is None: return ""
