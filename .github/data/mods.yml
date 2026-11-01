@@ -10,7 +10,7 @@
 
 - name: "Curse of Chaos"
   author: "Lisitsyn"
-  category: "Both (server-side + client-side)"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -26,7 +26,7 @@
 
 - name: "Advanced Server"
   author: "The Arctic Fox"
-  category: "Server-side"
+  category: "Server-side + Separate Project"
   status: "Active"
   links:
     - name: "GitHub"
@@ -50,16 +50,16 @@
 
 - name: "Universe Relapse"
   author: "Relapse Team"
-  category: "Client-side"
-  status: "Work in progress (WIP)"
+  category: "Custom"
+  status: "Active"
   links:
     - name: "Game Jolt"
       url: "https://gamejolt.com/games/td2drUR/938171"
 
 - name: "NU Project"
   author: "Remodify Studios"
-  category: "Both (server-side + client-side)"
-  status: "Active"
+  category: "Custom"
+  status: "Active Demo"
   links:
     - name: "Game Jolt"
       url: "https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209"
