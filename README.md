@@ -21,13 +21,13 @@ A curated list of community modifications. Sorted by category.
 <!-- MODS_START -->
 | Name | Author | Category | Link | Status |
 |------|--------|----------|------|--------|
-| Curse of Chaos | Lisitsyn | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/lisitsynfox/1054471) | Active |
+| Curse of Chaos | Lisitsyn | Custom | [Game Jolt](https://gamejolt.com/games/lisitsynfox/1054471) | Active |
 | DisasterServer | MilesGlitch | Server-side | [GitHub](https://github.com/AX88M2/DisasterServer) | Active |
 | Advanced Server | The Arctic Fox | Server-side + Separate Project | [GitHub](https://github.com/thearcticfox25/AdvancedServer/) | Active |
 | Gamemode Cycle | IceCoffee & ColdestTea | Server-side | [Game Jolt](https://gamejolt.com/games/TD2DRgmcycle/919987) | Active |
 | TD2DR X Sonic | Renx Diamond | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/TD2DR_Sonic/919101) | Active |
-| Universe Relapse | Relapse Team | Client-side | [Game Jolt](https://gamejolt.com/games/td2drUR/938171) | Work in progress (WIP) |
-| NU Project | Remodify Studios | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active |
+| Universe Relapse | Relapse Team | Custom | [Game Jolt](https://gamejolt.com/games/td2drUR/938171) | Active |
+| NU Project | Remodify Studios | Custom | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active Demo |
 <!-- MODS_END -->
 
 *To add a mod, please use the [Submit a mod](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-mod.yml) issue form.*
