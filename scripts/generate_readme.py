@@ -86,7 +86,6 @@ def parse_and_generate():
         author_match = re.search(r'by\s+(.+)$', line)
         if not author_match:
             continue
-
         author = author_match.group(1).strip()
 
         name_match = re.findall(r'\(([^)]+)\)', line[:author_match.start()])
@@ -107,10 +106,8 @@ def parse_and_generate():
         if re.search(r'Android', line_without_name, re.IGNORECASE): tags.append("Android")
 
         status = "Active"
-        if "development" in line.lower(): 
-            status = "WIP"
-        elif "cancelled" in line.lower(): 
-            status = "Cancelled"
+        if "development" in line.lower(): status = "WIP"
+        elif "cancelled" in line.lower(): status = "Cancelled"
 
         links = []
         for url in urls:
@@ -130,18 +127,13 @@ def parse_and_generate():
 
     v1101, v1014, v100, others = [], [], [], []
     for m in mods:
-        if "v1101" in m["versions"]: 
-            v1101.append(m)
-        elif "v1014" in m["versions"]: 
-            v1014.append(m)
-        elif "v100" in m["versions"]: 
-            v100.append(m)
-        else:
-            others.append(m)
+        if "v1101" in m["versions"]: v1101.append(m)
+        elif "v1014" in m["versions"]: v1014.append(m)
+        elif "v100" in m["versions"]: v100.append(m)
+        else: others.append(m)
 
-    md = "# TD2DR Mod Hub\n\n"
-    md += "> *A curated list of community modifications. Sorted by author.*\n\n"
-
+    tables_md = ""
+    
     def render_table(mod_list):
         if not mod_list: return ""
         table = "| Name | Author | Versions | Tags | Link | Status |\n"
@@ -152,17 +144,27 @@ def parse_and_generate():
             table += f"| {m['name']} | {m['author']} | {v_str} | {t_str} | {m['links']} | {m['status']} |\n"
         return table + "\n"
 
-    if v1101:
-        md += "## 🟢 Actual versions (v1.1.0.1)\n\n" + render_table(v1101)
-    if v1014:
-        md += "## 🟡 Beta versions (v1.0.1.4)\n\n" + render_table(v1014)
-    if v100:
-        md += "## 🔴 Old versions (v1.0.0)\n\n" + render_table(v100)
-    if others:
-        md += "## ⚪ Other / Without version\n\n" + render_table(others)
+    if v1101: tables_md += "### 🟢 Actual versions (v1.1.0.1)\n\n" + render_table(v1101) + "\n"
+    if v1014: tables_md += "### 🟡 Beta versions (v1.0.1.4)\n\n" + render_table(v1014) + "\n"
+    if v100: tables_md += "### 🔴 Old versions (v1.0.0)\n\n" + render_table(v100) + "\n"
+    if others: tables_md += "### ⚪ Other / Without version\n\n" + render_table(others) + "\n"
+
+    try:
+        with open('README.md', 'r', encoding='utf-8') as f:
+            readme_content = f.read()
+    except FileNotFoundError:
+        readme_content = ""
+
+    pattern = r'<!-- MODS_START -->.*?<!-- MODS_END -->'
+    replacement = f"<!-- MODS_START -->\n{tables_md}<!-- MODS_END -->"
+    
+    if "<!-- MODS_START -->" in readme_content and "<!-- MODS_END -->" in readme_content:
+        new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+    else:
+        new_readme = readme_content + "\n\n" + replacement
 
     with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(md)
+        f.write(new_readme)
         print("README.md update!")
 
 if __name__ == "__main__":
