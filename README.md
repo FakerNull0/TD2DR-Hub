@@ -24,11 +24,38 @@ A curated list of community modifications. Sorted by category.
 | Curse of Chaos | Lisitsyn | Custom | [Game Jolt](https://gamejolt.com/games/lisitsynfox/1054471) | Active |
 | DisasterServer | MilesGlitch | Server-side | [GitHub](https://github.com/AX88M2/DisasterServer) | Active |
 | Advanced Server | The Arctic Fox | Server-side | [GitHub](https://github.com/thearcticfox25/AdvancedServer/) | Active |
-| Sonic.EXE: Multiplayer | The Arctic Fox | Separate Project | [GitHub](https://github.com/thearcticfox25/sonic.exe-mp/) | Active |
+| Sonic.EXE: Multiplayer | The Arctic Fox |  | [GitHub](https://github.com/thearcticfox25/sonic.exe-mp/) | Active |
 | Gamemode Cycle | IceCoffee & ColdestTea | Server-side | [Game Jolt](https://gamejolt.com/games/TD2DRgmcycle/919987) | Active |
 | TD2DR X Sonic | Renx Diamond | Both (server-side + client-side) | [Game Jolt](https://gamejolt.com/games/TD2DR_Sonic/919101) | Active |
 | Universe Relapse | Relapse Team | Custom | [Game Jolt](https://gamejolt.com/games/td2drUR/938171) | Active |
 | NU Project | Remodify Studios | Custom | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active Demo |
+| Sonic.EXE: The Disaster 2D Redux | imamils |  | [Game Jolt](https://gamejolt.com/games/tdr/838670) | Work in Progress |
+| TD2DR Double Trouble | IceCoffee & ColdestTea |  | [Game Jolt](https://gamejolt.com/games/td2dr_doubletrouble/940798) | Active |
+| TD2DR Through The Blood | maxbaxwer |  | [Game Jolt](https://gamejolt.com/games/td2dTD2DThroughtheblood/1034288) | Active (cancelled) |
+| TD2DR Nexus | sonicstudiox |  | [Game Jolt](https://gamejolt.com/games/NEXUS/912415) | Cancelled |
+| TD2DR One Last Round Project | ModHive Studio |  | [Game Jolt](https://gamejolt.com/games/olr_project_TD2DR/1077062) | Active |
+| TD2DR Modified | JAYDENDOESTHINGS831 |  | [Game Jolt](https://gamejolt.com/games/SonicExeTD2DRMODIFIED/1020980) | Active |
+| TD2DR Classic Girls | Animated_Fint |  | [Game Jolt](https://gamejolt.com/games/2Dthedisasterclassicgirlsmod/872335) | Active |
+| TD2DR Руссификатор | ModHive Studio |  | [Game Jolt](https://gamejolt.com/games/TD2DR-RUS/1072577) | Active |
+| TD2DR ModGen Faker | DollFan |  | [Game Jolt](https://gamejolt.com/games/fakermod/908703) | Active |
+| TD2DR: Project Sky Base | IceCoffee & ColdestTea |  | [Game Jolt](https://gamejolt.com/games/td2d_skybase/855567) | Actve |
+| TD2DR Girls Edition | Pure Platinum Killer (PPK) |  | [Game Jolt](https://gamejolt.com/games/2dtd-girls-edition/915075) | Active |
+| TD2DR New Friends Forever! | Alpha Parallax |  | [Game Jolt](https://gamejolt.com/games/sonicfanrus-zycptb/863131) | Cancelled |
+| TD2DR Repent Castle | DemonZIDE |  | [Game Jolt](https://gamejolt.com/games/td2drrepentcastlemod/894952) | Active |
+| TD2DR Bowser's Fortress DS Map | DemonZIDE |  | [Game Jolt](https://gamejolt.com/games/td2drbfds/916769) | Active |
+| TD2DR Void Flat Map | DemonZIDE |  | [Game Jolt](https://gamejolt.com/games/td2drvoidflat/899447) | Active |
+| TD2DR: Lost Souls | sunblizz |  | [Game Jolt](https://gamejolt.com/games/td2dr_lostsouls/1040400) | Active |
+| TD2DR Stefan joins | Pupsik228 |  | [Game Jolt](https://gamejolt.com/games/remake_by_pupsik228/866954) | Cancelled |
+| TD2DR X Shadow | KAMI-2012 |  | [Game Jolt](https://gamejolt.com/games/TD2DR_Project_Shadow/1050440) | Active |
+| Amelia in TD2DR | MORBUN |  | [Game Jolt](https://gamejolt.com/games/AmelTD2DR/893704) | Active |
+| TD2DR Crimson Edition | SamuServian |  | [Game Jolt](https://gamejolt.com/games/crimsoneditionbyss/1067267) | Cancelled |
+| TD2DR One More Fun | OneLastProductions |  | [Game Jolt](https://gamejolt.com/games/onemorefun/967599) | Active |
+| TD2DR Sonic's Revenge | BrandonTheHedgehog |  | [Game Jolt (v110 port)](https://gamejolt.com/games/TD2DR-SONICS-REVENGE/957458) / [Game Jolt (original)](https://gamejolt.com/games/TD2DR-sonic/877606) | Cancelled |
+| TD2DR Deathmatch Of Despair | FakerEXE | Reskin | [Game Jolt (v110 port)](https://gamejolt.com/games/TD2DR-DEATHMATCH-OF-DESPAIR/996178) / [Game Jolt (original)](https://gamejolt.com/games/TD2DDMoD/895430) | Cancelled |
+| TD2DR Mania Mod | BrandonTheHedgehog |  | [Game Jolt (v110 port)](https://gamejolt.com/games/Ports-Mania-In-TD2DR-V1101/997230) / [Game Jolt (original](https://gamejolt.com/games/TD2DR-Mania-Mod/897659) | Active |
+| The Disaster 2D Revamped | Cheizburr |  | [Game Jolt (v110 port)](https://gamejolt.com/games/Pc-and-Android-Ports-TD2DRR/995301) / [Game Jolt (original)](https://gamejolt.com/games/td2drr/857034) | Cancelled |
+| TD2DR Dimalapt Reskins Pack | Dimalapt |  | [Game Jolt (v110 port)](https://gamejolt.com/games/Ports-td2d-mod-reskin-dimalapt-v1101/937263) / [Game Jolt (original)](https://gamejolt.com/games/td2dDimalaptReskinspack/858979) | Cancelled |
+| Project Sonic.OMT | Assasin4568 |  | [Game Jolt](https://gamejolt.com/games/Project-Sonic-Omt/932308) | Cancelled |
 <!-- MODS_END -->
 
 *To add a mod, please use the [Submit a mod](https://github.com/FakerNull0/TD2DR-Hub/issues/new?template=add-mod.yml) issue form.*
