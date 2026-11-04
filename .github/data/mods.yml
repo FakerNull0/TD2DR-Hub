@@ -284,7 +284,7 @@
 
 - name: "TD2DR Dimalapt Reskins Pack"
   author: "Dimalapt"
-  caterogy: "Reskin:
+  caterogy: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt (v110 port)"
