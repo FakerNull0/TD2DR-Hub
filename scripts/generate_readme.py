@@ -151,7 +151,7 @@ def parse_and_generate():
     if v1101: tables_md += "### Actual versions (v1.1.0.1)\n\n" + render_table(v1101) + "\n"
     if v1014: tables_md += "### Beta versions (v1.0.1.4)\n\n" + render_table(v1014) + "\n"
     if v100: tables_md += "### Old versions (v1.0.0)\n\n" + render_table(v100) + "\n"
-    if others: tables_md += "### ⚪ Separate Project / Without version / Other\n\n" + render_table(others) + "\n"
+    if others: tables_md += "### Separate Project / Without version / Other\n\n" + render_table(others) + "\n"
 
     try:
         with open('README.md', 'r', encoding='utf-8') as f:
