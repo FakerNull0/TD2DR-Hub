@@ -34,7 +34,7 @@
 
 - name: "Sonic.EXE: Multiplayer"
   author: "The Arctic Fox"
-  caterogy: "Custom"
+  caterogy: "Separate Project"
   status: "Active"
   links:
     - name: "GitHub"
