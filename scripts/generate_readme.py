@@ -9,7 +9,7 @@ https://gamejolt.com/games/TD2DRgmcycle/919987 - v1101 (TD2DR Gamemode Cycle) by
 https://gamejolt.com/games/TD2DR_Sonic/919101 - v1101 PC / Android (TD2DR X Sonic) by Renx Diamond
 https://gamejolt.com/games/td2drUR/938171 - v1101 PC (TD2DR Universe Relapse) by Relapse Team
 https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209 / https://gamebanana.com/mods/589527 - v1101 PC (Sonic.exe The Disaster 2D Remake NU Project) by Remodify Studio
-https://gamejolt.com/games/tdr/838670 - Separate Project (Sonic.EXE: The Disaster (2D) Redux) by immails
+https://gamejolt.com/games/tdr/838670 - Separate Project - WIP (Sonic.EXE: The Disaster (2D) Redux) by immails
 https://gamejolt.com/games/td2dr_doubletrouble/940798 - v1101 PC / Android (Sonic.exe The Disaster 2D Remake: Double Trouble) by IceCoffee & ColdestTea
 https://gamejolt.com/games/td2dTD2DThroughtheblood/1034288 - v1101 PC / Android (Sonic.exe The Disaster 2D Remake Through The Blood) by maxbaxwer
 https://gamejolt.com/games/NEXUS/912415 - v1101 PC (Sonic.exe The Disaster 2D Remake Nexus) by sonicstudiox
@@ -46,7 +46,7 @@ https://gamejolt.com/games/IronForesttd2dr/916013 - v1014 - PC (TD2DR Iron Fores
 https://gamejolt.com/games/baseformexellertd2dr/916016 - v1014 - PC (TD2DR Normal/Base Form Exeller Mod) by ANormalGaze
 https://gamejolt.com/games/fleetwayamytd2dr/916182 - v1014 - PC (TD2DR Fleetway Amy Mod) by ANormalGaze
 https://gamejolt.com/games/amyslide/925750 - v1101 - PC (TD2DR but Amy can slide) by X-Fluffy-X
-https://gamejolt.com/games/td2dr_friends_of_jimbo/1082189 - v1101 - in development (TD2DR: Friends of Jimbo) by Gasterovi4
+https://gamejolt.com/games/td2dr_friends_of_jimbo/1082189 - v1101 - WIP (TD2DR: Friends of Jimbo) by Gasterovi4
 https://gamejolt.com/games/wood_zone_lol/865011 - v100 - PC (Wood Zone in TD2DR) by DeklynTDH
 https://gamejolt.com/games/td2drlatino/1010516 - v1101 - PC (TD2DR Latino Mod) by DumbDotJpg
 https://gamejolt.com/games/snowexe/956813 - v1101 - PC / Android (TD2DR XMAS (Winter Edition) Mod) by X-Fluffy-X
@@ -108,8 +108,10 @@ def parse_and_generate():
         if re.search(r'Android', line_without_name, re.IGNORECASE): tags.append("Android")
 
         status = "Active"
-        if "development" in line.lower(): status = "WIP"
-        elif "cancelled" in line.lower(): status = "Cancelled"
+        if "development" in line.lower() or "wip" in line.lower(): 
+            status = "WIP"
+        elif "cancelled" in line.lower(): 
+            status = "Cancelled"
 
         links = []
         for url in urls:
@@ -149,7 +151,7 @@ def parse_and_generate():
     if v1101: tables_md += "### Actual versions (v1.1.0.1)\n\n" + render_table(v1101) + "\n"
     if v1014: tables_md += "### Beta versions (v1.0.1.4)\n\n" + render_table(v1014) + "\n"
     if v100: tables_md += "### Old versions (v1.0.0)\n\n" + render_table(v100) + "\n"
-    if others: tables_md += "### Other / Without version\n\n" + render_table(others) + "\n"
+    if others: tables_md += "### ⚪ Separate Project / Without version / Other\n\n" + render_table(others) + "\n"
 
     try:
         with open('README.md', 'r', encoding='utf-8') as f:
