@@ -106,7 +106,7 @@ A curated list of community modifications. Sorted by author and version.
 | TD2DR: Max's Map Pack (Metropolis v2) | ProMax | v100 | PC | [Game Jolt](https://gamejolt.com/games/td2dr_maxs_maps/872256) | Active |
 
 
-### ⚪ Separate Project / Without version / Other
+### Separate Project / Without version / Other
 
 | Name | Author | Versions | Tags | Link | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
