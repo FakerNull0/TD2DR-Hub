@@ -106,11 +106,11 @@ A curated list of community modifications. Sorted by author and version.
 | TD2DR: Max's Map Pack (Metropolis v2) | ProMax | v100 | PC | [Game Jolt](https://gamejolt.com/games/td2dr_maxs_maps/872256) | Active |
 
 
-### Other / Without version
+### ⚪ Separate Project / Without version / Other
 
 | Name | Author | Versions | Tags | Link | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sonic.EXE: The Disaster (2D) Redux | immails | — | — | [Game Jolt](https://gamejolt.com/games/tdr/838670) | Active |
+| Sonic.EXE: The Disaster (2D) Redux | immails | — | — | [Game Jolt](https://gamejolt.com/games/tdr/838670) | WIP |
 | Sonic.EXE: Multiplayer | The Arctic Fox | — | PC | [GitHub](https://github.com/thearcticfox25/sonic.exe-mp/) | Active |
 
 
