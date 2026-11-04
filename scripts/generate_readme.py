@@ -2,7 +2,7 @@ import re
 
 RAW_TEXT = """
 https://gamejolt.com/games/lisitsynfox/1054471 - v1101 PC / Android (TD2DR Curse of Chaos) by Lisitsyn
-https://github.com/AX88M2/DisasterServer - v1101 - v1012 - v100 - v206 by MilesGlitch
+https://github.com/AX88M2/DisasterServer - v1101 - v1012 - v100 - v206 (DisasterServer) by MilesGlitch
 https://github.com/thearcticfox25/AdvancedServer/ - v1101 by The Arctic Fox
 https://github.com/thearcticfox25/sonic.exe-mp/ - Separate Project - PC (Sonic.EXE: Multiplayer) by The Arctic Fox
 https://gamejolt.com/games/TD2DRgmcycle/919987 - v1101 (TD2DR Gamemode Cycle) by IceCoffee & ColdestTea
