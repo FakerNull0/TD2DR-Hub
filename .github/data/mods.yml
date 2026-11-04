@@ -26,11 +26,19 @@
 
 - name: "Advanced Server"
   author: "The Arctic Fox"
-  category: "Server-side + Separate Project"
+  category: "Server-side"
   status: "Active"
   links:
     - name: "GitHub"
       url: "https://github.com/thearcticfox25/AdvancedServer/"
+
+- name: "Sonic.EXE: Multiplayer"
+  author: "The Arctic Fox"
+  caterogy: "Custom"
+  status: "Active"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/thearcticfox25/sonic.exe-mp/"
 
 - name: "Gamemode Cycle"
   author: "IceCoffee & ColdestTea"
