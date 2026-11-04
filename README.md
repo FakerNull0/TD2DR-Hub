@@ -47,7 +47,7 @@ A curated list of community modifications. Sorted by author and version.
 | TD2DR Crushed Dimensions | MaloverD07 | v1101 | PC | [Game Jolt](https://gamejolt.com/games/TD2DR-Crushed-Dimension-v1101/1012959) | Active |
 | SCT: Project | MatiMateo | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/project192116518312020112519/1034727) | Active |
 | Sonic.exe The Disaster 2D Remake Through The Blood | maxbaxwer | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/td2dTD2DThroughtheblood/1034288) | Active |
-| Unknown | MilesGlitch | v100, v1012, v1101, v206 | — | [GitHub](https://github.com/AX88M2/DisasterServer) | Active |
+| DisasterServer | MilesGlitch | v100, v1012, v1101, v206 | — | [GitHub](https://github.com/AX88M2/DisasterServer) | Active |
 | Sonic.exe The Disaster 2D Remake Руссификатор | ModHive Studio | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR-RUS/1072577) | Active |
 | TD2DR One Last Round Project | ModHive Studio | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/olr_project_TD2DR/1077062) | Active |
 | Amelia in TD2DR | MORBUN | v100, v1101 | PC | [Game Jolt](https://gamejolt.com/games/AmelTD2DR/893704) | Active |
