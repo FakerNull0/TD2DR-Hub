@@ -34,7 +34,7 @@
 
 - name: "Sonic.EXE: Multiplayer"
   author: "The Arctic Fox"
-  caterogy: "Separate Project"
+  category: "Separate Project"
   status: "Active"
   links:
     - name: "GitHub"
@@ -76,7 +76,7 @@
 
 - name: "Sonic.EXE: The Disaster 2D Redux"
   author: "imamils"
-  caterogy: "Separate Project"
+  category: "Separate Project"
   status: "Work in Progress"
   links:
     - name: "Game Jolt"
@@ -84,7 +84,7 @@
 
 - name: "TD2DR Double Trouble"
   author: "IceCoffee & ColdestTea"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -92,7 +92,7 @@
 
 - name: "TD2DR Through The Blood"
   author: "maxbaxwer"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active (cancelled)"
   links:
     - name: "Game Jolt"
@@ -100,7 +100,7 @@
       
 - name: "TD2DR Nexus"
   author: "sonicstudiox"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Cancelled"
   links:
     - name: "Game Jolt"
@@ -108,7 +108,7 @@
 
 - name: "TD2DR One Last Round Project"
   author: "ModHive Studio"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -116,7 +116,7 @@
 
 - name: "TD2DR Modified"
   author: "JAYDENDOESTHINGS831"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -124,7 +124,7 @@
 
 - name: "TD2DR Classic Girls"
   author: "Animated_Fint"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -132,7 +132,7 @@
 
 - name: "TD2DR Руссификатор"
   author: "ModHive Studio"
-  caterogy: "Other"
+  category: "Other"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -140,7 +140,7 @@
 
 - name: "TD2DR ModGen Faker"
   author: "DollFan"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -148,7 +148,7 @@
 
 - name: "TD2DR: Project Sky Base"
   author: "IceCoffee & ColdestTea"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Actve"
   links:
     - name: "Game Jolt"
@@ -156,7 +156,7 @@
 
 - name: "TD2DR Girls Edition"
   author: "Pure Platinum Killer (PPK)"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -164,7 +164,7 @@
 
 - name: "TD2DR New Friends Forever!"
   author: "Alpha Parallax"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt"
@@ -172,7 +172,7 @@
 
 - name: "TD2DR Repent Castle"
   author: "DemonZIDE"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -180,7 +180,7 @@
 
 - name: "TD2DR Bowser's Fortress DS Map"
   author: "DemonZIDE"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -188,7 +188,7 @@
 
 - name: "TD2DR Void Flat Map"
   author: "DemonZIDE"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -196,7 +196,7 @@
 
 - name: "TD2DR: Lost Souls"
   author: "sunblizz"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -204,7 +204,7 @@
 
 - name: "TD2DR Stefan joins"
   author: "Pupsik228"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt"
@@ -212,7 +212,7 @@
 
 - name: "TD2DR X Shadow"
   author: "KAMI-2012"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -220,7 +220,7 @@
 
 - name: "Amelia in TD2DR"
   author: "MORBUN"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -228,7 +228,7 @@
 
 - name: "TD2DR Crimson Edition"
   author: "SamuServian"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt"
@@ -236,7 +236,7 @@
 
 - name: "TD2DR One More Fun"
   author: "OneLastProductions"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt"
@@ -244,7 +244,7 @@
 
 - name: "TD2DR Sonic's Revenge"
   author: "BrandonTheHedgehog"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt (v110 port)"
@@ -264,7 +264,7 @@
 
 - name: "TD2DR Mania Mod"
   author: "BrandonTheHedgehog"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Active"
   links:
     - name: "Game Jolt (v110 port)"
@@ -274,7 +274,7 @@
 
 - name: "The Disaster 2D Revamped"
   author: "Cheizburr"
-  caterogy: "Custom"
+  category: "Custom"
   status: "Cancelled"
   links:
     - name: "Game Jolt (v110 port)"
@@ -284,7 +284,7 @@
 
 - name: "TD2DR Dimalapt Reskins Pack"
   author: "Dimalapt"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt (v110 port)"
@@ -294,7 +294,7 @@
 
 - name: "Project Sonic.OMT"
   author: "Assasin4568"
-  caterogy: "Reskin"
+  category: "Reskin"
   status: "Cancelled"
   links:
     - name: "Game Jolt"
