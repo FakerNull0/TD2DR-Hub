@@ -2,10 +2,10 @@ import re
 
 RAW_TEXT = """
 https://gamejolt.com/games/lisitsynfox/1054471 - v1101 PC / Android (TD2DR Curse of Chaos) by Lisitsyn
-https://github.com/AX88M2/DisasterServer - v1101 - v1012 - v100 - v206 (исходные коды сервера в одном в разных ветках) by MilesGlitch
-https://github.com/thearcticfox25/AdvancedServer/ - v1101 (модифицированный сервер) by The Arctic Fox
-https://github.com/thearcticfox25/sonic.exe-mp/ - Separate Project PC (Sonic.EXE: Multiplayer) by The Arctic Fox
-https://gamejolt.com/games/TD2DRgmcycle/919987 - v1101 (модифицированный сервер) by IceCoffee & ColdestTea
+https://github.com/AX88M2/DisasterServer - v1101 - v1012 - v100 - v206 by MilesGlitch
+https://github.com/thearcticfox25/AdvancedServer/ - v1101 by The Arctic Fox
+https://github.com/thearcticfox25/sonic.exe-mp/ - Separate Project - PC (Sonic.EXE: Multiplayer) by The Arctic Fox
+https://gamejolt.com/games/TD2DRgmcycle/919987 - v1101 (TD2DR Gamemode Cycle) by IceCoffee & ColdestTea
 https://gamejolt.com/games/TD2DR_Sonic/919101 - v1101 PC / Android (TD2DR X Sonic) by Renx Diamond
 https://gamejolt.com/games/td2drUR/938171 - v1101 PC (TD2DR Universe Relapse) by Relapse Team
 https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209 / https://gamebanana.com/mods/589527 - v1101 PC (Sonic.exe The Disaster 2D Remake NU Project) by Remodify Studio
@@ -88,13 +88,15 @@ def parse_and_generate():
             continue
         author = author_match.group(1).strip()
 
-        name_match = re.findall(r'\(([^)]+)\)', line[:author_match.start()])
-        if name_match:
-            mod_name = name_match[-1].strip()
-            line_without_name = line[:author_match.start()].replace(f"({mod_name})", "")
+        text_before_author = line[:author_match.start()]
+        name_search = re.search(r'\(((?:[^()]|\([^()]*\))*)\)?\s*$', text_before_author)
+        
+        if name_search:
+            mod_name = name_search.group(1).strip()
+            line_without_name = text_before_author[:name_search.start()]
         else:
             mod_name = "Unknown"
-            line_without_name = line[:author_match.start()]
+            line_without_name = text_before_author
 
         urls = re.findall(r'https?://[^\s/]+/[^\s]+', line_without_name)
         urls = [u.strip('() -') for u in urls]
@@ -144,10 +146,10 @@ def parse_and_generate():
             table += f"| {m['name']} | {m['author']} | {v_str} | {t_str} | {m['links']} | {m['status']} |\n"
         return table + "\n"
 
-    if v1101: tables_md += "### 🟢 Actual versions (v1.1.0.1)\n\n" + render_table(v1101) + "\n"
-    if v1014: tables_md += "### 🟡 Beta versions (v1.0.1.4)\n\n" + render_table(v1014) + "\n"
-    if v100: tables_md += "### 🔴 Old versions (v1.0.0)\n\n" + render_table(v100) + "\n"
-    if others: tables_md += "### ⚪ Other / Without version\n\n" + render_table(others) + "\n"
+    if v1101: tables_md += "### Actual versions (v1.1.0.1)\n\n" + render_table(v1101) + "\n"
+    if v1014: tables_md += "### Beta versions (v1.0.1.4)\n\n" + render_table(v1014) + "\n"
+    if v100: tables_md += "### Old versions (v1.0.0)\n\n" + render_table(v100) + "\n"
+    if others: tables_md += "### Other / Without version\n\n" + render_table(others) + "\n"
 
     try:
         with open('README.md', 'r', encoding='utf-8') as f:
