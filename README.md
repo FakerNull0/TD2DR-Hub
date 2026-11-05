@@ -30,6 +30,9 @@ A curated list of community modifications. Sorted by author and version.
 | TD2DR+ | Banana8870 | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/td2drplus/941174) | Active |
 | Sonic.exe The Disaster 2D Remake X Brandon | BrandonTheHedgehog | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR_X_Brandon/1053859) | Active |
 | TD2DR Latino Mod | DumbDotJpg | v1101 | PC | [Game Jolt](https://gamejolt.com/games/td2drlatino/1010516) | Active |
+| TD2DR The Last Reset | ExeAmy19 | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DRTheLastResetMod/907532) | Active |
+| Disaster+ | FakerNull0 | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/disaster2d_plus/1063074) | Active |
+| TD2DR Eclipse Project | FakerNull0 | v1101 | PC | [Game Jolt](https://gamejolt.com/games/td2d-eclipse_project/1068934) | Active |
 | TD2DR Other History | Fo231xi | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/td2dohd/977499) | Active |
 | TD2DR X Metal Sonic | FrostTheBurr | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR-Origins-Expansion/970913) | Active |
 | TD2DR: Friends of Jimbo | Gasterovi4 | v1101 | — | [Game Jolt](https://gamejolt.com/games/td2dr_friends_of_jimbo/1082189) | WIP |
@@ -57,6 +60,7 @@ A curated list of community modifications. Sorted by author and version.
 | TD2DR Universe Relapse | Relapse Team | v1101 | PC | [Game Jolt](https://gamejolt.com/games/td2drUR/938171) | Active |
 | Sonic.exe The Disaster 2D Remake NU Project | Remodify Studio | v1101 | PC | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active |
 | TD2DR X Sonic | Renx Diamond | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR_Sonic/919101) | Active |
+| TD2DR Clash of Worlds | SamuServian | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/clashofworldsmodbyss/966497) | Active |
 | TD2DR Crimson Edition | SamuServian | v1101 | PC | [Game Jolt](https://gamejolt.com/games/crimsoneditionbyss/1067267) | Active |
 | TD2DR Nightmare Multiverse | SarkBobDemonPants | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/disasternm/977256) | Active |
 | TD2DR: Sonic.EXE The S Factor Proyect | SilverNight713 | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DSonicEXETheSFactorProyectMOD/1004657) | Active |
