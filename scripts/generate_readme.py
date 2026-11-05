@@ -17,7 +17,7 @@ https://gamejolt.com/games/olr_project_TD2DR/1077062 - v1101 PC / Android (TD2DR
 https://gamejolt.com/games/TD2DR_X_Brandon/1053859 - v1101 PC / Android (Sonic.exe The Disaster 2D Remake X Brandon) by BrandonTheHedgehog
 https://gamejolt.com/games/test/866396 - v100 - v1014 / PC / Android (Brandon The hedgehog in Sonic.exe The Disaster 2D Remake) by BrandonTheHedgehog 
 https://gamejolt.com/games/SonicExeTD2DRMODIFIED/1020980 - v1101 PC (Sonic.exe The Disaster 2D Remake Modified) by JAYDENDOESTHINGS831
-https://gamejolt.com/games/2Dthedisasterclassicgirlsmod/872335 - v1101 PC (TD2DR - Classic Girls Edition) by Pure Platinum Killer (PPK)
+https://gamejolt.com/games/2Dthedisasterclassicgirlsmod/872335 - v1101 PC (TD2DR - Classic Girls Edition) by Animated_Finn
 https://gamejolt.com/games/TD2DR-RUS/1072577 - v1101 - PC / Android (Sonic.exe The Disaster 2D Remake Руссификатор) by ModHive Studio
 https://gamejolt.com/games/fakermod/908703 - v100 - PC (The Disaster 2D Remake ModGen Faker Mod) by DollFan
 https://gamejolt.com/games/td2d_skybase/855567 - v1101 - PC / Android (TD2DR: Sky Base Project) by IceCoffee & ColdestTea
