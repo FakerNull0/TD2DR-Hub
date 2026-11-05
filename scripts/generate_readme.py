@@ -74,6 +74,10 @@ https://gamejolt.com/games/Nooboversally_android/915614 - v100 - Android (TD2DR 
 https://gamejolt.com/games/SonicExeTheDisaster2DRemakeAlternativeDimension/892055 - v100 - PC / Android (TD2DR Alternative Dimension) by GRNimoogi
 https://gamejolt.com/games/v1014alternativedimension/916103 - v1014 - Android (TD2DR Alternative Dimension Beta Android Port) by Miles3
 https://gamejolt.com/games/BETA-v1014-pc-alternative-dimension/911493 - v1014 - PC (TD2DR Alternative Dimension Port) by anormalperson_lol
+https://gamejolt.com/games/TD2DRTheLastResetMod/907532 - v1101 - PC / Android (TD2DR The Last Reset) by ExeAmy19
+https://gamejolt.com/games/clashofworldsmodbyss/966497 - v1101 - PC / Android (TD2DR Clash of Worlds) by SamuServian
+https://gamejolt.com/games/disaster2d_plus/1063074 - v1101 - PC / Android (Disaster+) by FakerNull0
+https://gamejolt.com/games/td2d-eclipse_project/1068934 - v1101 - PC (TD2DR Eclipse Project) by FakerNull0
 """
 
 def parse_and_generate():
