@@ -21,6 +21,7 @@ A curated list of community modifications. Sorted by author and version.
 
 | Name | Author | Versions | Tags | Link | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| TD2DR - Classic Girls Edition | Animated_Finn | v1101 | PC | [Game Jolt](https://gamejolt.com/games/2Dthedisasterclassicgirlsmod/872335) | Active |
 | Project Sonic.OMT | Assasin4568 | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/Project-Sonic-Omt/932308) | Active |
 | TD2DR Deathmatch of Despair | Assasin4568 (Ported) | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR-DEATHMATCH-OF-DESPAIR/996178) | Active |
 | TD2DR Dimalapt Reskins Pack | Assasin4568 (Ported) | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/Ports-td2d-mod-reskin-dimalapt-v1101/937263) | Active |
@@ -56,7 +57,6 @@ A curated list of community modifications. Sorted by author and version.
 | Amelia in TD2DR | MORBUN | v100, v1101 | PC | [Game Jolt](https://gamejolt.com/games/AmelTD2DR/893704) | Active |
 | TD2DR One More Fun | OneLastProductions | v1101 | PC | [Game Jolt](https://gamejolt.com/games/onemorefun/967599) | Active |
 | TD2DR Stefan joins | Pupsik228 | v100, v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/remake_by_pupsik228/866954) | Active |
-| TD2DR - Classic Girls Edition | Pure Platinum Killer (PPK) | v1101 | PC | [Game Jolt](https://gamejolt.com/games/2Dthedisasterclassicgirlsmod/872335) | Active |
 | TD2DR Universe Relapse | Relapse Team | v1101 | PC | [Game Jolt](https://gamejolt.com/games/td2drUR/938171) | Active |
 | Sonic.exe The Disaster 2D Remake NU Project | Remodify Studio | v1101 | PC | [Game Jolt](https://gamejolt.com/games/Disaster2DRemakeNUProject/1015209) / [GameBanana](https://gamebanana.com/mods/589527) | Active |
 | TD2DR X Sonic | Renx Diamond | v1101 | PC, Android | [Game Jolt](https://gamejolt.com/games/TD2DR_Sonic/919101) | Active |
